@@ -46,6 +46,19 @@ lerna-debug.log*
 .temp
 .tmp
 
+# scraper debug artifacts
+debug-*.html
+debug-*.png
+
+# pino logs
+/logs
+
+# playwright persistent chrome profile
+/chrome-profile
+
+# claude code local config
+/.claude
+
 # Runtime data
 pids
 *.pid
