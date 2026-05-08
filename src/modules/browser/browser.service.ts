@@ -26,7 +26,7 @@ export class BrowserService implements OnModuleInit, OnModuleDestroy {
     private async ensureLoggedIn() {
         if (!this.page) return;
 
-        await this.page.goto('https://www.linkedin.com/feed/', { waitUntil: 'load' });
+        await this.page.goto('https://www.linkedin.com/feed/', { waitUntil: 'domcontentloaded' });
 
         if (this.page.url().includes('/feed')) {
             this.logger.log('Already signed in.');
@@ -48,7 +48,7 @@ export class BrowserService implements OnModuleInit, OnModuleDestroy {
         }
 
         this.logger.log('Opening login page...');
-        await this.page.goto('https://www.linkedin.com/login', { waitUntil: 'load' });
+        await this.page.goto('https://www.linkedin.com/login', { waitUntil: 'domcontentloaded' });
 
         const passwordField = this.page.locator('input[type="password"]:visible').first();
         const emailField = this.page.locator('input[type="email"]:visible, input[type="text"]:visible').first();
@@ -56,7 +56,11 @@ export class BrowserService implements OnModuleInit, OnModuleDestroy {
         await passwordField.waitFor({ state: 'visible', timeout: 30000 });
 
         this.logger.log('Submitting credentials...');
-        await emailField.fill(email);
+        if (await emailField.isVisible({ timeout: 2000 }).catch(() => false)) {
+            await emailField.fill(email);
+        } else {
+            this.logger.log('Welcome-back screen — only password needed.');
+        }
         await passwordField.fill(password);
         await this.page.getByRole('button', { name: /^sign in$/i }).click();
 
