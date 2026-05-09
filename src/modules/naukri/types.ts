@@ -35,18 +35,28 @@ export interface Profile {
 }
 
 export interface RunState {
-    /** ISO date (YYYY-MM-DD) when daily limit was last hit. */
     dailyLimitHitOn?: string;
     lastRunAt?: string;
     appliedTotal?: number;
 }
 
-export interface AppliedJob {
-    appliedAt?: string;
+export interface JobDetails {
     title: string;
     company: string;
     url: string;
     keyword: string;
+    location?: string;
+    salary?: string;
+    experienceRequired?: string;
+    description?: string;
+    postedAgo?: string;
+    recruiterName?: string;
+    recruiterEmail?: string;
+    recruiterPhone?: string;
+    hrEmail?: string;
+    hrPhone?: string;
+    hrSource?: string;
     status: 'applied' | 'skipped' | 'failed';
     note?: string;
+    appliedAt?: string;
 }

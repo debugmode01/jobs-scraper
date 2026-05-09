@@ -40,7 +40,7 @@
     "minExperienceYears": 1,
     "maxExperienceYears": 6,
     "maxApplicationsPerRun": 50,
-    "freshnessDays": 1,
+    "freshnessDays": 10,
     "sortBy": "date"
   }
 }

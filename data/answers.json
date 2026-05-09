@@ -232,6 +232,111 @@
       ],
       "answer": "Yes",
       "type": "boolean"
+    },
+    {
+      "id": "git_experience",
+      "patterns": [
+        "how many years of experience in git",
+        "git experience",
+        "experience in git"
+      ],
+      "answer": "3",
+      "type": "number"
+    },
+    {
+      "id": "willing_relocate_city",
+      "patterns": [
+        "are you currently residing in hyderabad telangana or willing to relocate to hyderabad telangana",
+        "willing to relocate to hyderabad",
+        "willing to relocate to bangalore",
+        "willing to relocate to bengaluru",
+        "willing to relocate to pune",
+        "willing to relocate to mumbai",
+        "willing to relocate to delhi",
+        "willing to relocate to gurugram",
+        "willing to relocate to gurgaon",
+        "willing to relocate to noida",
+        "willing to relocate to chennai",
+        "currently residing in or willing to relocate",
+        "are you currently residing in pune",
+        "are you currently residing in bangalore",
+        "are you currently residing in bengaluru",
+        "are you currently residing in hyderabad",
+        "are you currently residing in mumbai",
+        "are you currently residing in chennai",
+        "are you currently residing in noida",
+        "are you currently residing in gurugram",
+        "are you currently residing in gurgaon",
+        "are you currently residing in delhi"
+      ],
+      "answer": "Yes",
+      "type": "boolean"
+    },
+    {
+      "id": "currently_located_other_city",
+      "patterns": [
+        "currently located in hyderabad",
+        "currently located in bangalore",
+        "currently located in bengaluru",
+        "currently located in pune",
+        "currently located in mumbai",
+        "currently located in chennai",
+        "currently located in delhi",
+        "currently located in noida",
+        "currently located in gurugram",
+        "currently located in gurgaon",
+        "are you currently in hyderabad",
+        "are you currently in bangalore",
+        "are you currently in pune"
+      ],
+      "answer": "No",
+      "type": "boolean"
+    },
+    {
+      "id": "interested_permanent_position",
+      "patterns": [
+        "are you interested in accenture permanent position",
+        "are you interested in permanent position",
+        "interested in permanent role",
+        "interested in this permanent",
+        "interested in a permanent position"
+      ],
+      "answer": "Yes",
+      "type": "boolean"
+    },
+    {
+      "id": "pan_card_number",
+      "patterns": [
+        "what is your pancard number",
+        "pan card number",
+        "pancard number",
+        "pan number",
+        "your pan"
+      ],
+      "answer": "OODPS199J",
+      "type": "text"
+    },
+    {
+      "id": "pincode_number",
+      "patterns": [
+        "what is your pincode number",
+        "pincode number",
+        "your pincode",
+        "pin code"
+      ],
+      "answer": "752101",
+      "type": "text"
+    },
+    {
+      "id": "experience_2_or_2plus",
+      "patterns": [
+        "2 or 2+",
+        "less than 2 or 2+",
+        "below 2 or 2+",
+        "1-2 or 2+"
+      ],
+      "answer": "2+",
+      "type": "text"
     }
   ],
   "unknown": []
