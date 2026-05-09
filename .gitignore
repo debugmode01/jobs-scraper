@@ -56,6 +56,10 @@ debug-*.png
 # playwright persistent chrome profile
 /chrome-profile
 
+# applied job log (private)
+/data/applied-jobs.csv
+/data/state.json
+
 # claude code local config
 /.claude
 

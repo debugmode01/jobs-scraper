@@ -1,0 +1,46 @@
+{
+  "personal": {
+    "fullName": "Manas Kumar Swain",
+    "firstName": "Manas",
+    "lastName": "Swain",
+    "email": "manas.swain247@gmail.com",
+    "phone": "9861053987",
+    "phoneCountryCode": "+91",
+    "gender": "Male",
+    "dateOfBirth": "2002-05-02",
+    "currentLocation": "Bhubaneswar",
+    "currentCity": "Bhubaneswar",
+    "currentState": "Odisha",
+    "country": "India",
+    "linkedin": "https://linkedin.com/in/manaskumarswain/",
+    "willingToRelocate": true
+  },
+  "professional": {
+    "currentRole": "Lead Full Stack Developer",
+    "currentCompany": "SmartXAlgo",
+    "totalExperienceYears": 3.3,
+    "totalExperienceMonths": 39,
+    "currentCtcLpa": 3.96,
+    "expectedCtcLpa": 5,
+    "noticePeriodDays": 30,
+    "workMode": "Any",
+    "preferredLocations": ["Bangalore","Bengaluru","Hyderabad","Pune","Mumbai","Delhi","Gurgaon","Gurugram","Noida","Chennai","Bhubaneswar","Remote"],
+    "primarySkills": ["Node.js","React.js","Next.js","TypeScript","JavaScript","NestJS","Express.js","MongoDB","MySQL","AWS","WebSocket","Redux","React Native","HTML","CSS","Tailwind"]
+  },
+  "education": {
+    "highestQualification": "Bachelor of Science",
+    "degree": "B.Sc. Computer Science",
+    "institution": "Nayagarh College, Nayagarh",
+    "yearOfPassing": 2022,
+    "cgpa": 8.66,
+    "percentage": 86.6
+  },
+  "search": {
+    "keywords": ["Full Stack Developer","Node.js Developer","React Developer","MERN Stack Developer","MEAN Stack Developer","Backend Developer","Frontend Developer","Software Engineer","Software Developer","JavaScript Developer","TypeScript Developer","Next.js Developer","NestJS Developer","Lead Full Stack Developer","Senior Software Engineer"],
+    "minExperienceYears": 1,
+    "maxExperienceYears": 6,
+    "maxApplicationsPerRun": 50,
+    "freshnessDays": 1,
+    "sortBy": "date"
+  }
+}

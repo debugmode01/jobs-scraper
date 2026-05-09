@@ -1,0 +1,238 @@
+{
+  "_meta": {
+    "description": "Question -> Answer bank. Bot fuzzy-matches incoming questions against the 'patterns' array. First match wins. Add more patterns or new entries to improve coverage.",
+    "matchThreshold": 0.55
+  },
+  "answers": [
+    {
+      "id": "total_experience_years",
+      "patterns": [
+        "total experience",
+        "years of experience",
+        "how many years of experience",
+        "overall experience",
+        "work experience in years"
+      ],
+      "answer": "3",
+      "type": "number"
+    },
+    {
+      "id": "current_ctc",
+      "patterns": [
+        "current ctc",
+        "current salary",
+        "present ctc",
+        "current annual ctc",
+        "what is your current ctc",
+        "current package"
+      ],
+      "answer": "3.96",
+      "type": "number"
+    },
+    {
+      "id": "expected_ctc",
+      "patterns": [
+        "expected ctc",
+        "expected salary",
+        "expected package",
+        "salary expectation",
+        "what is your expected ctc"
+      ],
+      "answer": "5",
+      "type": "number"
+    },
+    {
+      "id": "notice_period",
+      "patterns": [
+        "notice period",
+        "what is your notice period",
+        "how soon can you join",
+        "joining time",
+        "available to join in",
+        "earliest joining date"
+      ],
+      "answer": "30",
+      "type": "number"
+    },
+    {
+      "id": "current_location",
+      "patterns": [
+        "current location",
+        "where do you stay",
+        "current city",
+        "present location",
+        "where are you located"
+      ],
+      "answer": "Bhubaneswar",
+      "type": "text"
+    },
+    {
+      "id": "preferred_location",
+      "patterns": [
+        "preferred location",
+        "preferred job location",
+        "willing to work in",
+        "preferred city"
+      ],
+      "answer": "Bangalore, Hyderabad, Pune, Mumbai, Delhi, Gurgaon, Noida, Chennai, Bhubaneswar, Remote",
+      "type": "text"
+    },
+    {
+      "id": "willing_to_relocate",
+      "patterns": [
+        "willing to relocate",
+        "open to relocate",
+        "ready to relocate",
+        "can you relocate"
+      ],
+      "answer": "Yes",
+      "type": "boolean"
+    },
+    {
+      "id": "current_company",
+      "patterns": [
+        "current company",
+        "present company",
+        "currently working at",
+        "current employer"
+      ],
+      "answer": "SmartXAlgo",
+      "type": "text"
+    },
+    {
+      "id": "current_role",
+      "patterns": [
+        "current role",
+        "current designation",
+        "current job title",
+        "present designation"
+      ],
+      "answer": "Lead Full Stack Developer",
+      "type": "text"
+    },
+    {
+      "id": "highest_qualification",
+      "patterns": [
+        "highest qualification",
+        "highest education",
+        "qualification",
+        "degree"
+      ],
+      "answer": "B.Sc. Computer Science",
+      "type": "text"
+    },
+    {
+      "id": "year_of_passing",
+      "patterns": [
+        "year of passing",
+        "passing year",
+        "graduation year",
+        "year of graduation"
+      ],
+      "answer": "2022",
+      "type": "number"
+    },
+    {
+      "id": "gender",
+      "patterns": [
+        "gender",
+        "what is your gender"
+      ],
+      "answer": "Male",
+      "type": "text"
+    },
+    {
+      "id": "date_of_birth",
+      "patterns": [
+        "date of birth",
+        "dob",
+        "birth date"
+      ],
+      "answer": "02/05/2002",
+      "type": "text"
+    },
+    {
+      "id": "skills_nodejs_exp",
+      "patterns": [
+        "experience in node",
+        "node.js experience",
+        "nodejs experience",
+        "years of experience in node"
+      ],
+      "answer": "3",
+      "type": "number"
+    },
+    {
+      "id": "skills_react_exp",
+      "patterns": [
+        "experience in react",
+        "react.js experience",
+        "reactjs experience",
+        "years of experience in react"
+      ],
+      "answer": "3",
+      "type": "number"
+    },
+    {
+      "id": "skills_nextjs_exp",
+      "patterns": [
+        "experience in next.js",
+        "nextjs experience",
+        "years of experience in next.js"
+      ],
+      "answer": "2",
+      "type": "number"
+    },
+    {
+      "id": "skills_typescript_exp",
+      "patterns": [
+        "experience in typescript",
+        "typescript experience",
+        "years of experience in typescript"
+      ],
+      "answer": "2",
+      "type": "number"
+    },
+    {
+      "id": "skills_mongodb_exp",
+      "patterns": [
+        "experience in mongodb",
+        "mongo experience",
+        "years of experience in mongodb"
+      ],
+      "answer": "3",
+      "type": "number"
+    },
+    {
+      "id": "skills_aws_exp",
+      "patterns": [
+        "experience in aws",
+        "aws experience",
+        "cloud experience"
+      ],
+      "answer": "1",
+      "type": "number"
+    },
+    {
+      "id": "skills_fullstack_exp",
+      "patterns": [
+        "full stack experience",
+        "experience in full stack",
+        "fullstack experience"
+      ],
+      "answer": "3",
+      "type": "number"
+    },
+    {
+      "id": "english_proficiency",
+      "patterns": [
+        "english proficiency",
+        "comfortable in english",
+        "english speaking"
+      ],
+      "answer": "Yes",
+      "type": "boolean"
+    }
+  ],
+  "unknown": []
+}

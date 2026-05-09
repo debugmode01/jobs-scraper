@@ -6,6 +6,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { LoggerModule } from 'nestjs-pino';
 import { UsersModule } from './modules/users/users.module';
 import { BrowserModule } from './modules/browser/browser.module';
+import { NaukriModule } from './modules/naukri/naukri.module';
 
 @Module({
   imports: [
@@ -49,6 +50,7 @@ import { BrowserModule } from './modules/browser/browser.module';
     }),
     UsersModule,
     BrowserModule,
+    NaukriModule,
   ],
   controllers: [AppController],
   providers: [AppService],
